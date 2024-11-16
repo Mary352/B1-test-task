@@ -7,6 +7,7 @@
   --light-gray: #AFB2B6;
   --violet: "#7B61FF";
   --hover-transition: 0.3s;
+  --general-left-padding: 60px;
 }
 
 body {
@@ -40,8 +41,17 @@ a {
 .App-footer {
   align-self: end;
   padding-bottom: 64px;
-  padding-left: 60px;
+  padding-left: var(--general-left-padding);
   color: var(--light-gray);
   font-weight: 500;
   font-size: 16px;
+}
+
+
+.App-header {
+  align-self: center;
+  padding-left: var(--general-left-padding);
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--white);
 }

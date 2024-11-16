@@ -4,7 +4,7 @@ import NavListItem from './components/NavListItem/NavListItem';
 export const App = () => {
   return (
     <div className="App">
-      <header>Header</header>
+      <header className="App-header">Jikan</header>
       <div>search</div>
       {/* <nav>Pages navigation</nav> */}
       <nav>
