@@ -3,7 +3,8 @@
   --dark: #242426;
   --graphite: #323537;
   --white: #fff;
-  --light: #80858B;
+  --gray: #80858B;
+  --light-gray: #AFB2B6;
   --violet: "#7B61FF";
   --hover-transition: 0.3s;
 }
@@ -39,30 +40,8 @@ a {
 .App-footer {
   align-self: end;
   padding-bottom: 64px;
+  padding-left: 60px;
+  color: var(--light-gray);
+  font-weight: 500;
+  font-size: 16px;
 }
-
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-} */
